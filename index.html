@@ -1,255 +1,555 @@
 <!DOCTYPE html>
- <html lang="en">
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pars Coder || Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- boxicon css link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 </head>
-
 <body>
-  <!-- Header -->
-  <section id="header">
-    <div class="header container">
-      <div class="nav-bar">
-        <div class="brand">
-          <a href="#hero">
-            <h1><span>S</span>tar<span>_</span>X_</h1>
-          </a>
+    <div class="overlay"></div>
+    <header>
+        <div class="img_home">
+            <img src="https://youtu.be/ZB5dVJbwS3E" alt="">
         </div>
-        <div class="nav-list">
-          <div class="hamburger">
-            <div class="bar"></div>
-          </div>
-          <ul>
-            <li><a href="#hero" data-after="Home">Home</a></li>
-            <li><a href="#services" data-after="Service">Services</a></li>
-            <li><a href="#projects" data-after="Projects">Projects</a></li>
-            <li><a href="#about" data-after="About">About</a></li>
-            <li><a href="#contact" data-after="Contact">Contact</a></li>
-          </ul>
+        <a href="#" class="logo"><span>Khang</span> Dev</a>
+        <ul class="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="right-header">
+            <a href="https://www.facebook.com/FlexxingCoder/" class="btn">Let's chat <i class='bx bx-message-dots' ></i></a>
+            <div class="menu-icon">
+                <div class="bar"></div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Header -->
+    </header>
 
+    <section class="home" id="home">
+        <div class="hero-info">
+            <h3>Welcome To my World</h3>
+            <h1>Hi I'm Khang</h1>
 
-  <!-- Hero Section  -->
-  <section id="hero">
-    <div class="hero container">
-      <div>
-        <h1>Welcome <span></span></h1>
-        <h1>To <span></span></h1>
-        <h1>Con nòng nặc wed <span></span></h1>
-        <a href="#projects" type="button" class="cta">Portfolio</a>
-      </div>
-    </div>
-  </section>
-  <!-- End Hero Section  -->
+            <div class="text-animate">
+                <h2>Frontend Developer</h2>
+            </div>
 
-  <!-- Service Section -->
-  <section id="services">
-    <div class="services container">
-      <div class="service-top">
-        <h1 class="section-title">Serv<span>i</span>ces</h1>
-        <p>--Welcome to join NetWork.eu--</p>
-      </div>
-      <div class="service-bottom">
-        <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-          <h2>Web Design</h2>
-          <p>--Welcome to join NetWork.eu, we're really suprising for your enjoying .-- </p>
-        </div>
-        <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-          <h2>Web Design</h2>
-          <p>--Thank you for visiting our homepage !--</p>
-        </div>
-        <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-          <h2>Web Design</h2>
-          <p>--In this wed you will know 1 server that is NetWork.eu--</p>
-        </div>
-        <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-          <h2>Web Design</h2>
-          <p>--Perhaps you do not know the most sociable and friendly skyblock and pvp servers--</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Service Section -->
+            <p>Tương lai sẽ luôn tươi sáng và tốt đẹp nếu bạn cố gắng từ bây giờ!</p>
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <div class="projects container">
-      <div class="projects-header">
-        <h1 class="section-title">Recent <span>Projects</span></h1>
-      </div>
-      <div class="all-projects">
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 1</h1>
-            <h2>Coding is Love</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
-              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
-              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-          </div>
-          <div class="project-img">
-            <img src="https://media.discordapp.net/attachments/1138655317257900133/1138721264450674739/image.png?width=316&height=196" alt="img">
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 2</h1>
-            <h2>Coding is Love</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
-              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
-              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-          </div>
-          <div class="project-img">
-            <img src="https://media.discordapp.net/attachments/1138655317257900133/1138721264450674739/image.png?width=316&height=196" alt="img">
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 3</h1>
-            <h2>Coding is Love</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
-              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
-              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-          </div>
-          <div class="project-img">
-            <img src="https://media.discordapp.net/attachments/1138655317257900133/1138721264450674739/image.png?width=316&height=196" alt="img">
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 4</h1>
-            <h2>Coding is Love</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
-              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
-              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-          </div>
-          <div class="project-img">
-            <img src="https://media.discordapp.net/attachments/1138655317257900133/1138721264450674739/image.png?width=316&height=196" alt="img">
-          </div>
-        </div>
-        <div class="project-item">
-          <div class="project-info">
-            <h1>Project 5</h1>
-            <h2>Coding is Love</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
-              rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
-              harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
-          </div>
-          <div class="project-img">
-            <img src="https://media.discordapp.net/attachments/1138655317257900133/1138721264450674739/image.png?width=316&height=196" alt="img">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Projects Section -->
+            <div class="btn-box">
+                <a href="thuyphuong+@duclinh.edu.vn" class="btn">Hire Me Now ! <i class='bx bx-right-arrow-alt' ></i></a>
+                <a href="" target="_blank" class="btn d-CV">Download CV <i class='bx bx-download'></i></a>
+            </div>
 
-  <!-- About Section -->
-  <section id="about">
-    <div class="about container">
-      <div class="col-left">
+            <div class="social-media">
+                <div class="bg-icon">
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <span></span>
+                </div>
+
+                <div class="bg-icon">
+                    <a href="https://github.com/WinNotLog"><i class='bx bxl-github'></i></a>
+                    <span></span>
+                </div>
+
+                <div class="bg-icon">
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <span></span>
+                </div>
+
+                <div class="bg-icon">
+                    <a href="https://www.facebook.com/FlexxingCoder/"><i class='bx bxl-facebook'></i></a>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+         <div class="img-hero">
+            <img src="" alt="">
+            </div>
+          <!-- <div class="rotate-text">
+                <div class="text">
+                    <p>I'm Black End And I'm Frontend Developer And I'm Designer</p>
+                </div>
+                <span><i></i></span>
+            </div>
+        </div> -->
+    </section> 
+
+    <section class="about" id="about">
         <div class="about-img">
-          <img src="https://github.com/ShaifArfan/one-page-website-html-css-project/blob/master/img/img-1.png?raw=true" alt="img">
+            <img src="./img/portfolio/ezgif.com-gif-maker-1-1.gif" alt="" class="aboutHero">
+            
+            <!-- <div class="showcase-ring">
+                <img src="#" class="ring">
+                <img src="#" class="circle">
+            </div> -->
         </div>
-      </div>
-      <div class="col-right">
-        <h1 class="section-title">About <span>me</span></h1>
-        <h2>Front End Developer</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, velit alias eius non illum beatae atque
-          repellat ratione qui veritatis repudiandae adipisci maiores. At inventore necessitatibus deserunt
-          exercitationem cumque earum omnis ipsum rem accusantium quis, quas quia, accusamus provident suscipit magni!
-          Expedita sint ad dolore, commodi labore nihil velit earum ducimus nulla quae nostrum fugit aut, deserunt
-          reprehenderit libero enim!</p>
-        <a href="#" class="cta">Thanks !!</a>
-      </div>
-    </div>
-  </section>
-  <!-- End About Section -->
+        <div class="about-content">
+            <h2 class="heading">About Me</h2>
+            <h3>Hey ! Tôi là Khang </h3>
+            <p>Tôi đã tự mình học vắt vả sau 1 năm trôi qua tôi đã có một ít kiến thức về ngành CNTT , tôi mong muốn được tới đỉnh cao của mình để được ứng cử vào công ty AI [ Hay còn gọi là CHAT GPT AI ] đó là ước muốn lớn nhất của tôi !</p>
+            <div class="about-btn">
+                <button class="active">Main Skills</button>
+                <button>Awards</button>
+                <button>Education</button>
+            </div>
+            <div class="content-btn">
+                <div class="content">
+                    <div class="text-box">
+                    <p>User Experience Design - UI / UX</p>
+                    <span>Delight the user and make it work.</span>
+                </div>
+                <div class="text-box">
+                    <p>Web & User Interface Design - Development</p>
+                    <span>Website , Web Experience , ...</span>
+                </div>
+                <div class="text-box">
+                    <p>Interaction Desing - Animation</p>
+                    <span>I Like to move it move it</span>
+                </div>
+                </div>
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <div class="contact container">
-      <div>
-        <h1 class="section-title">Contact <span>info</span></h1>
-      </div>
-      <div class="contact-items">
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
-          <div class="contact-info">
-            <h1>Phone</h1>
-            <h2>+1 234 123 1234</h2>
-            <h2>+1 234 123 1234</h2>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
-          <div class="contact-info">
-            <h1>Email</h1>
-            <h2>info@gmail.com</h2>
-            <h2>abcd@gmail.com</h2>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
-          <div class="contact-info">
-            <h1>Address</h1>
-            <h2>Fatikchhari, Chittagong, Bangladesh</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Contact Section -->
+                <div class="content">
+                    <div class="text-box">
+                    <p>Web Design Award</p>
+                    <span>Award for creativity and user experience.</span>
+                </div>
+                <div class="text-box">
+                    <p>Code and Development Award</p>
+                    <span>Exceptional coding skills and develoment techniques</span>
+                </div>
+                <div class="text-box">
+                    <p>Hackathons and coding Competiotions</p>
+                    <span>Participating in hackathons and coding.</span>
+                </div>
+                </div>
 
-  <!-- Footer -->
-  <section id="footer">
-    <div class="footer container">
-      <div class="brand">
-        <h1><span>S</span>haif <span>A</span>rfan</h1>
-      </div>
-      <h2>Your Complete Web Solution</h2>
-      <div class="social-icon">
-        <div class="social-item">
-          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
-        </div>
-        <div class="social-item">
-          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
-        </div>
-        <div class="social-item">
-          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" /></a>
-        </div>
-        <div class="social-item">
-          <a href="#"><img src="https://img.icons8.com/bubbles/100/000000/behance.png" /></a>
-        </div>
-      </div>
-      <p>Copyright © 2020 Arfan. All rights reserved</p>
-    </div>
-  </section>
-  <!-- End Footer -->
-  <script src="./assets/css/app.js"></script>
 
-  <button class="bypass" type="button">
-    <strong>.Star</strong>
-    <div id="container-stars">
-      <div id="stars"></div>
+                <div class="content">
+                    <div class="text-box">
+                    <p>Online Courses and Bootcamps</p>
+                    <span>Delight the user and make it work.</span>
+                </div>
+                <div class="text-box">
+                    <p>Internships and Work Experience</p>
+                    <span>Website , Web Experience , ...</span>
+                </div>
+                <div class="text-box">
+                    <p>Bachelor's Degree in Computer Science</p>
+                    <span>I Like to move it move it</span>
+                </div>
+                </div>
+            </div>
+            <div class="cvContent">
+                <a href="img/resume.pdf" target="_blank" class="btn d-CV">Download CV <i class='bx bx-download'></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="main-text">
+            <h2 class="heading">My Services</h2>
+            <span>what i will do for you</span>
+        </div>
+
+        <div class="allServices">
+            <div class="servicesItem">
+                <div class="icon-services">
+                    <i class='bx bx-layer' ></i>
+                    <span></span>
+                </div>
+                <h3>Tự học Frontend DEV</h3>
+                <p>Nhờ vào sự quyết tâm và nỗ lực của mình mà tôi đã tìm đến wedside F8 để học hỏi những kiến thức về lập trình trang wed của mình !!!!</p>
+                <a href="#" class="readMore">Read More</a>
+            </div>
+
+            <div class="servicesItem">
+                <div class="icon-services">
+                    <i class='bx bx-code-alt' ></i>
+                    <span></span>
+                </div>
+                <h3>Web Development</h3>
+                <p>Từ trước đến nay tôi đã lập ra khá nhiều wedside dưới dạng html+css trong đó tôi đã cố gắng lập cho mình trang wed riêng kết họp cả js</p>
+                <a href="#" class="readMore">Read More</a>
+            </div>
+
+            <div class="servicesItem">
+                <div class="icon-services">
+                    <i class='bx bx-desktop' ></i>
+                    <span></span>
+                </div>
+                <h3>Học JavaScript</h3>
+                <p>Tôi đã học khá ít về JavaScript nên lập trình cũng không đẹp cho lắm và tôi cũng học hỏi thêm những kiến thức về js thông qua F8</p>
+                <a href="#" class="readMore">Read More</a>
+            </div>
+
+            <div class="servicesItem">
+                <div class="icon-services">
+                    <i class='bx bxs-party' ></i>
+                    <span></span>
+                </div>
+                <h3>Lập trang wed và học hỏi</h3>
+                <p>Tôi đã tạo thành công trang wed mà mình mông muốn và đã giao lưu với các DEV thông qua Discord!</p>
+                <a href="#" class="readMore">Read More</a>
+            </div>
+        </div>
+
+        <div class="proposal">
+            <div class="text-box">
+                <h2>Get It Touch</h2>
+                <h3>Have a Project <span>On Your Mind</span></h3>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+            <img src="./img/portfolio/tumblr_405c7e50120034ca218bea4f390034ea_4e9e584c_540.webp" class="first">
+        </div>
+
+        <div class="showcase">
+            <img src="shapes/ring.png" class="ring">
+            <img src="shapes/circle.png" class="circle">
+            <img src="shapes/circle.png" class="circle2">
+            <img src="shapes/circle.png" class="circle3">
+            <img src="shapes/half-ring.png" class="half-ring">
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="main-text">
+            <h2 class="heading">My Services</h2>
+            <span>what i will do for you</span>
+        </div>
+        <div class="fillter-buttons">
+            <button class="button mixitup-control-active" data-filter="all">All Work</button>
+            <button class="button" data-filter=".web">Web Development</button>
+            <button class="button" data-filter=".uiux">UI/UX Design</button>
+            <button class="button" data-filter=".branding">Branding Design</button>
+        </div>
+
+        <div class="portfolio-gallery">
+            <div class="portfolio-box mix uiux">
+                <div class="portfolio-content">
+                    <h3>UI/UX Design</h3>
+                    <p></p>
+                    <a href="#" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/1.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix web">
+                <div class="portfolio-content">
+                    <h3>Web Design</h3>
+                    <p></p>
+                    <a href="#" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/2.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix web">
+                <div class="portfolio-content">
+                    <h3>Web Development</h3>
+                    <p></p>
+                    <a href="#" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/3.jpg" alt="">
+                </div>
+            </div>
+
+
+            <div class="portfolio-box mix web">
+                <div class="portfolio-content">
+                    <h3>Web Development</h3>
+                    <p></p>
+                    <a href="#" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/4.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix uiux">
+                <div class="portfolio-content">
+                    <h3>UI/UX Design</h3>
+                    <p></p>
+                    <a href="#" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/5.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix branding">
+                <div class="portfolio-content">
+                    <h3>Web Development</h3>
+                    <p></p>
+                    <a href="#" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="img/portfolio/6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="blog" id="blog">
+        <div class="main-text">
+            <h2 class="heading">Blog</h2>
+            <span>Latest News & Post</span>
+        </div>
+
+        <div class="blog-box swiper mySwiper">
+            <div class="cards swiper-wrapper">
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="img/blog/1.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Mobile App Landing Page</h2>
+                        <span class="date">Sunday, Jan 14, 2023</span>
+                        <p class="excerpt">
+                            Creative one wedside favourite
+                        </p>
+                        <a href="#" class="readMore">Explore More</a>
+                    </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="img/blog/2.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Mobile App Landing Page</h2>
+                        <span class="date">Sunday, Jan 14, 2023</span>
+                        <p class="excerpt">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.
+                        </p>
+                        <a href="#" class="readMore">Explore More</a>
+                    </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="img/blog/3.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Mobile App Landing Page</h2>
+                        <span class="date">Sunday, Jan 14, 2023</span>
+                        <p class="excerpt">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.
+                        </p>
+                        <a href="#" class="readMore">Explore More</a>
+                    </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="img/blog/4.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Mobile App Landing Page</h2>
+                        <span class="date">Sunday, Jan 14, 2023</span>
+                        <p class="excerpt">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.
+                        </p>
+                        <a href="#" class="readMore">Explore More</a>
+                    </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="img/blog/5.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Mobile App Landing Page</h2>
+                        <span class="date">Sunday, Jan 14, 2023</span>
+                        <p class="excerpt">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.
+                        </p>
+                        <a href="#" class="readMore">Explore More</a>
+                    </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="img/blog/6.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Mobile App Landing Page</h2>
+                        <span class="date">Sunday, Jan 14, 2023</span>
+                        <p class="excerpt">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.
+                        </p>
+                        <a href="#" class="readMore">Explore More</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+        <div class="showcase">
+            <img src="shapes/ring.png" class="ring">
+            <img src="shapes/second-circle.png" class="second-circle">
+            <img src="shapes/circle.png" class="circle">
+            <img src="shapes/half-ring.png" class="half-ring">
+        </div>
+
+    </section>
+
+    <section class="down-box" id="contact">
+        <div class="contactSkills">
+            <div class="contact-info">
+                <div class="main-text">
+                    <h2 class="heading">Contact Me</h2>
+                    <span>get in touch with me</span>
+                </div>
+                <form action="#">
+                    <div class="input-box">
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+                    </div>
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Subject">
+                    <textarea name="#" id="" cols="30" rows="10">
+                    </textarea>
+                    <div class="formBtn">
+                        <button type="submit" class="btn">Send Message</button>
+                    </div>
+                </form>
+            </div>
+            <div class="skills">
+                <div class="container">
+                    <div class="skillBox">
+                        <div class="main-text">
+                            <h2 class="heading">My Skills</h2>
+                            <span>Let Me Help you</span>
+                        </div>
+                        <div class="skill-wrap">
+                            <div class="skill">
+                                <div class="outer-circle">
+                                    <div class="inner-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                <stop offset="0%" stop-color="#e91e63" />
+                                                <stop offset="100%" stop-color="#673ab7" />
+                                                </linearGradient>
+                                            </defs>
+                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                                       </svg>
+                                       <h2 class="counter">
+                                        <span data-target="89">90</span>%
+                                       </h2>
+                                    </div>
+                                </div>
+                                <div class="sk-title">
+                                    HTML
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="outer-circle">
+                                    <div class="inner-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                <stop offset="0%" stop-color="#e91e63" />
+                                                <stop offset="100%" stop-color="#673ab7" />
+                                                </linearGradient>
+                                            </defs>
+                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                                       </svg>
+                                       <h2 class="counter">
+                                        <span data-target="47">70</span>%
+                                       </h2>
+                                    </div>
+                                </div>
+                                <div class="sk-title">
+                                    CSS
+                                </div>
+                            </div>
+
+
+                            <div class="skill">
+                                <div class="outer-circle">
+                                    <div class="inner-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                <stop offset="0%" stop-color="#e91e63" />
+                                                <stop offset="100%" stop-color="#673ab7" />
+                                                </linearGradient>
+                                            </defs>
+                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                                       </svg>
+                                       <h2 class="counter">
+                                        <span data-target="56">8</span>%
+                                       </h2>
+                                    </div>
+                                </div>
+                                <div class="sk-title">
+                                    JavaScript
+                                </div>
+                            </div>
+
+
+                            <div class="skill">
+                                <div class="outer-circle">
+                                    <div class="inner-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                <stop offset="0%" stop-color="#e91e63" />
+                                                <stop offset="100%" stop-color="#673ab7" />
+                                                </linearGradient>
+                                            </defs>
+                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                                       </svg>
+                                       <h2 class="counter">
+                                        <span data-target="19">46</span>%
+                                       </h2>
+                                    </div>
+                                </div>
+                                <div class="sk-title">
+                                    UI/UX Design
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright © 2023 by <span>Khang DEV</span> || All Right Reservd.</p>
+    </footer>
+
+    <div id="progress">
+        <span id="progress-value">
+            <i class='bx bxs-chevrons-up' ></i>
+        </span>
     </div>
-  
-    <div id="glow">
-      <div class="circle"></div>
-      <div class="circle"></div>
-    </div>
-  </button>
-  
+
+    <!-- scroll reveal  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- mixitup cdn js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
